@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rdz.cAlgo.GridTrap", "Rdz.cAlgo.GridTrap\Rdz.cAlgo.GridTrap.csproj", "{BA78836D-93D3-4DA4-BBB3-D4D3B5A41ACF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA78836D-93D3-4DA4-BBB3-D4D3B5A41ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA78836D-93D3-4DA4-BBB3-D4D3B5A41ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA78836D-93D3-4DA4-BBB3-D4D3B5A41ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA78836D-93D3-4DA4-BBB3-D4D3B5A41ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
