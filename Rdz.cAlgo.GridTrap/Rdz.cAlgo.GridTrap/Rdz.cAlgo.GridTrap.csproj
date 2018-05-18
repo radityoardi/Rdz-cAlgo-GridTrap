@@ -47,7 +47,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Rdz-cAlgo-Library\Rdz.cAlgo.Library\Rdz.cAlgo.Library\Rdz.cAlgo.Library.csproj">
+    <ProjectReference Include="..\..\Rdz-cAlgo-Library\Rdz.cAlgo.Library\Rdz.cAlgo.Library\Rdz.cAlgo.Library.csproj">
       <Project>{899b89d3-ed6e-4436-94e3-7bf25a1c2915}</Project>
       <Name>Rdz.cAlgo.Library</Name>
     </ProjectReference>
