@@ -33,7 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="cAlgo.API">
-      <HintPath>C:\Users\T88537\Documents\cAlgo\API\cAlgo.API.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Users\rardi1\Documents\cAlgo\API\cAlgo.API.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -45,6 +45,12 @@
   <ItemGroup>
     <Compile Include="Rdz.cAlgo.GridTrap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Rdz-cAlgo-Library\Rdz.cAlgo.Library\Rdz.cAlgo.Library\Rdz.cAlgo.Library.csproj">
+      <Project>{899b89d3-ed6e-4436-94e3-7bf25a1c2915}</Project>
+      <Name>Rdz.cAlgo.Library</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
