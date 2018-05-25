@@ -25,7 +25,7 @@ namespace Rdz.cAlgo.GridTrap
 
 		void Initialize()
 		{
-
+			//initialize
 		}
 	}
 }
