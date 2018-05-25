@@ -14,7 +14,9 @@ namespace Rdz.cAlgo.GridTrap
 {
 	public partial class GridTrapRobot
 	{
-		[Parameter(DefaultValue = 0.0)]
-		public double Parameter { get; set; }
+		[Parameter("Gap from Price (Points)", DefaultValue = 20)]
+		public int GapPointsFromPrice { get; set; }
+		[Parameter("Interval (Points)", DefaultValue = 50)]
+		public int IntervalPointsEach { get; set; }
 	}
 }

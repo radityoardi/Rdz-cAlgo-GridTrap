@@ -23,5 +23,15 @@ namespace Rdz.cAlgo.GridTrap
 				return __Transactions;
 			}
 		}
+
+		private List<Schemas.GridTrapLine> __Lines = null;
+		internal List<Schemas.GridTrapLine> Lines
+		{
+			get
+			{
+				if (__Lines == null) { __Lines = new List<Schemas.GridTrapLine>(); }
+				return __Lines;
+			}
+		}
 	}
 }

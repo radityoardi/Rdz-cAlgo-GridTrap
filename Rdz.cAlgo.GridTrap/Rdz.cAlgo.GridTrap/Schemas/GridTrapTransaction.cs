@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Rdz.cAlgo.Library;
 
 namespace Rdz.cAlgo.GridTrap.Schemas
 {
-	internal class GridTrapTransaction
+	internal class GridTrapTransaction : RdzBotTransaction
 	{
-		internal string Label { get; set; }
+		
 	}
 }
